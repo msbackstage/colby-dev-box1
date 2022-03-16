@@ -1,0 +1,8 @@
+site_name: "colby-dev-box1"
+site_description: "My dev box for Project Alpha"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

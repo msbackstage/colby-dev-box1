@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "colby-dev-box1"
+  description: "My dev box for Project Alpha"
+  tags:
+    - 8-vcpu
+    - 32gb-ram
+    - 512gb-storage
+  annotations:
+    github.com/project-slug: msbackstage/colby-dev-box1
+    backstage.io/techdocs-ref: dir:.
+    msft.dev/resource-type: dev-box
+    msft.dev/project-slug: "project-alpha"
+spec:
+  type: dev-box
+  lifecycle: production
+  owner: "user:colbyw_microsoft.com"
